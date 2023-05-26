@@ -1,0 +1,14 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 96px;
+    padding: 40px;
+}
+
+.title a{
+    color: #5d00b4;
+    cursor: pointer;
+    text-decoration: none;
+}

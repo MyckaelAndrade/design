@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    color: #fff;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 400px;
+}
+
+.footer-box-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 100px;
+}
+
+.row{
+    width: 30%;
+    height: 200px;
+}

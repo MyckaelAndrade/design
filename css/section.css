@@ -1,0 +1,9 @@
+.main-img{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(30deg, #6f00ff, #be00f8, #a500f1, #9600db);
+}
+
+.img-box img{
+    width: 180px;
+}
