@@ -1,7 +1,167 @@
+
+/* reset */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #000;
 }
 
+.-white{
+    color: #fff;
+}
+
+/* cabeçalho */
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+
+/* menu */
+#menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    height: 5px;
+    padding: 10px 20px;
+    font-size: 2vmin;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover{
+    border-bottom: 1px solid #000;
+}
+
+
+.box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* texto */
+.subtitle{
+    text-transform: uppercase;
+    font-size: 5vmin;
+    cursor: pointer;
+}
+
+.txt p{
+    font-size: 3vmin;
+    text-align: justify;
+    margin: 5px;
+    text-indent: 60px;
+    line-height: 2rem;
+}
+
+
+.section{
+    width: 100%;
+    height: auto;
+    background-color: #303030;
+    padding: 50px;
+}
+
+
+
+/* imagens */
+.image-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+.image-box img{
+    width: 40%;
+    height: auto;
+}
+
+/* rodapé */
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 70px 0;
+    margin-top: 100px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #000;
+    height: 2px;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    padding-left: 8px;
+}
+
+@media(max-width: 767px){
+.footer-col{
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+  width: 100%;
+}
+}
